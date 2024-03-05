@@ -1,4 +1,5 @@
 .DS_Store
 *.pyc
 *.idx1-ubyte
+*.idx3-ubyte
 *.networkconfig
