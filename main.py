@@ -7,7 +7,7 @@ from export import export
 
 # Print manifest
 print("\033c", end="", flush=True)
-print("Year 4 Mathematical Exploration 2024", end="\033[K\n\a")
+print("Year 4 Mathematical Exploration 2024: Trainer", end="\033[K\n\a")
 print("Janav Nagapatla and Aiden Lim", end="\033[K\n")
 print("All rights reserved", end="\033[K\n")
 
