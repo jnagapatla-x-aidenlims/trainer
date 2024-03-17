@@ -18,7 +18,7 @@ def export(network: Network,
 
     print(f"> Created {config.name}", end="\033[K\n")
 
-    config.write(f"Model: {filename}\n")
+    config.write(f"Model: {filename.split("/")[-1]}\n")
     config.write("Program: Year 4 Mathematical Exploration 2024\n")
     config.write("Authors: Aiden Lim and Janav Nagapatla\n")
     print("> Manifest written", end="\033[K\n")
